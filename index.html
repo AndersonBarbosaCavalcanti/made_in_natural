@@ -26,7 +26,12 @@
             <button class="btn d-lg-none btn_open_menu">
               <img src="assets/img/menu.svg">
             </button>
-            <img style="height: 53px;" src="assets/img/logo.webp">
+            <div class="d-flex">
+              <button class="btn d-none d-lg-block btn_open_external_links mr-4">
+                <img style="width: 40px;" src="assets/img/menu_green.png">
+              </button>
+              <img style="height: 53px;" src="assets/img/logo.webp">
+            </div>
             
             <div class="w-100 d-none d-lg-block centro_menu">
               <div class="w-100 border-top border-lg-none p-5 p-lg-0 d-block d-lg-flex">
@@ -56,6 +61,14 @@
                     <button class="btn ml-1 btn_perfil"><img style="height: 23px;" src="assets/img/user.svg"></button>
                     <button class="btn ml-1 btn_favoritos"><img style="height: 23px;" src="assets/img/coracao.svg"></button>
                   </div>
+                </div>
+
+                <div class="bg-white pt-4 p-lg-4" id="cont_external_links">
+                  <a href="#" class="text-dark d-block mr-5 mb-2">Nossos Produtos</a>
+                  <a href="#" class="text-dark d-block mr-5 mb-2">Snacks para empresas</a>
+                  <a href="#" class="text-dark d-block mr-5 mb-2">Seja Revendedor</a>
+                  <a href="#" class="text-dark d-block mr-5 mb-2">Para sua Casa</a>
+                  <a href="#" class="text-dark d-block mr-5">Fale Cosnosco</a>
                 </div>
               </div>
             </div>
@@ -292,44 +305,44 @@
     <!--=========== fim section tabela ===========-->
 
     <!--=========== categorias ===========-->
-    <section class="w-100 pt-5 section_categorias" style="overflow: hidden;">
+    <section class="w-100 pt-5 pb-5 section_categorias" style="overflow: hidden; background-image: url('assets/img/bg_categorias.png'); background-color: #F8F9FA; background-repeat: no-repeat; background-size: 100% 100%;">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="_color_green text-center">Categorias</h1>
+            <h1 class="text-white text-center">Categorias</h1>
             
             <div class="pb-5">
               <div class="d-flex cont_categorias">
                 <div class="categoria">
-                  <div class="shadow mr-4">
+                  <div class="shadow mr-4 bg-white">
                     <img src="assets/img/categorias/img1.jpeg">
                     <h6 class="_color_green">Snacks</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                   </div>
                 </div>
                 <div class="categoria">
-                  <div class="shadow mr-4">
+                  <div class="shadow mr-4 bg-white">
                     <img src="assets/img/categorias/img2.jpeg">
                     <h6 class="_color_green">Castanhas, Sementes & Frutas Secas</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                   </div>
                 </div>
                 <div class="categoria">
-                  <div class="shadow mr-4">
+                  <div class="shadow mr-4 bg-white">
                     <img src="assets/img/categorias/img3.jpeg">
                     <h6 class="_color_green">Temperos & Especiarias</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                   </div>
                 </div>
                 <div class="categoria">
-                  <div class="shadow mr-4">
+                  <div class="shadow mr-4 bg-white">
                     <img src="assets/img/categorias/img4.jpeg">
                     <h6 class="_color_green">Farinhas, Moídos & Pó</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                   </div>
                 </div>
                 <div class="categoria">
-                  <div class="shadow mr-4">
+                  <div class="shadow mr-4 bg-white">
                     <img src="assets/img/categorias/img5.jpeg">
                     <h6 class="_color_green">Chás & Ervas</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -344,10 +357,10 @@
         <div class="row">
           <div class="col-12 d-flex align-items-center justify-content-center">
             <button class="btn p-0 rounded-circle mr-2 btn_prev">
-              <img style="width: 40px;" src="assets/img/arrow_circle_left.png">
+              <img style="width: 40px;" src="assets/img/arrow_circle_left_white.png">
             </button>
             <button class="btn p-0 rounded-circle ml-2 btn_next">
-              <img style="width: 40px;" src="assets/img/arrow_circle_right.png">
+              <img style="width: 40px;" src="assets/img/arrow_circle_right_white.png">
             </button>
           </div>
         </div>
@@ -355,38 +368,67 @@
     </section>
     <!--=========== fim categorias ===========-->
 
-    <!--=========== empresas ===========-->
-    <section class="w-100 d-flex align-items-stretch section_empresas" style="background-color: #F8F9FA;">
-      <div class="w-25 d-none d-md-block">
-        <img class="w-100 h-100" style="object-fit: cover;" src="assets/img/img_to_empresas.jpeg">
-      </div>
-      <div class="w-100 w-md-75 pt-4 px-5 d-flex align-items-center">
-        <div class="pl-3 pl-xl-5">
-          <h1 class="mb-5">Aprovado por grandes empresas</h1>
-          <div class="w-100 d-flex flex-wrap">
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa1.png"></div>
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa2.png"></div>
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa3.png"></div>
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa4.png"></div>
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa1.png"></div>
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa2.png"></div>
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa3.png"></div>
-            <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="w-100 img_empresa" style="max-width: 230px;" src="assets/img/empresas/empresa4.png"></div>
+    <!--========== boxex ============-->
+    <section class="w-100 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 my-3">
+            <div class="w-100" style="box-shadow: 0px 4px 4px 0px #00000040; border-radius: 16px; overflow: hidden;">
+              <div class="w-100" style="position: relative; padding-top: 40%; overflow: hidden;">
+                <img class="w-100 h-100" style="position: absolute; top: 0; left: 0; object-fit: cover;" src="assets/img/snacks.png" alt="">
+              </div>
+              <div class="p-4">
+                <h3 class="_color_green" style="font-weight: bolder;">Snacks para escritórios</h3>
+                <p style="font-size: 12px;">Surpreenda seu time de colaboradores com snacks deliciosos e saudáveis.</p>
+                <button class="btn btn_green w-100">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 my-3">
+            <div class="w-100" style="box-shadow: 0px 4px 4px 0px #00000040; border-radius: 16px; overflow: hidden;">
+              <div class="w-100" style="position: relative; padding-top: 40%; overflow: hidden;">
+                <img class="w-100 h-100" style="position: absolute; top: 0; left: 0; object-fit: cover;" src="assets/img/snacks.png" alt="">
+              </div>
+              <div class="p-4">
+                <h3 class="_color_green" style="font-weight: bolder;">Compre no atacado</h3>
+                <p style="font-size: 12px;">Aqui você pode adquirir uma grande variedade de produtos com preço direto da fonte</p>
+                <button class="btn btn_green w-100">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 my-3">
+            <div class="w-100" style="box-shadow: 0px 4px 4px 0px #00000040; border-radius: 16px; overflow: hidden;">
+              <div class="w-100" style="position: relative; padding-top: 40%; overflow: hidden;">
+                <img class="w-100 h-100" style="position: absolute; top: 0; left: 0; object-fit: cover;" src="assets/img/snacks.png" alt="">
+              </div>
+              <div class="p-4">
+                <h3 class="_color_green" style="font-weight: bolder;">Crie uma cotação</h3>
+                <p style="font-size: 12px;">Gostaria de fazer uma compra especial? Envie sua lista que enviaremos a melhor sugestão para você</p>
+                <button class="btn btn_green w-100">Saiba mais</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!--=========== fim empresas ===========-->
+    <!--========== fim boxex ============-->
 
     <!--=========== destaques ===========-->
-    <section class="section_destaques">
+    <section class="section_destaques my-5" style="background-color: #F8F9FA;">
       <div class="container">
         <div class="row">
-          <div class="col-12 py-5">
-            <h1 class="mb-5 text-center _color_green">Destaque de Mídia</h1>
-            <div class="w-100 d-flex flex-wrap justify-content-center">
+          <div class="col-12 py-5 d-lg-flex align-items-end">
+            <div class="mb-5 pb-5 mb-md-0 pb-md-0 mt-3">
+              <div class="pt-3 pl-3 mr-4" style="position: relative; background-image: url('assets/img/circles_2.png'); background-size: 72px 72px; background-repeat: no-repeat;">
+                <h1 class="pt-3 px-4" style="color: #DB591D;">Destaque <span class="d-block" style="white-space: nowrap;">de mídia</span></h1>
+                <p class="ml-4">Onde estão falando sobre a made in natural</p>
+              </div>
+            </div>
+            <div class="w-100 mt-5 d-flex flex-wrap justify-content-center">
               <div class="mb-5 mx-4"><img style="height: 38px;" src="assets/img/destaques/destaque1.png"></div>
-              <div class="mb-5 mx-4"><img style="height: 38px;" src="assets/img/destaques/destaque2.png"></div>
+              <div class="mb-5 mx-4 "><img style="height: 38px;" src="assets/img/destaques/destaque2.png"></div>
               <div class="mb-5 mx-4"><img style="height: 38px;" src="assets/img/destaques/destaque3.png"></div>
               <div class="mb-5 mx-4"><img style="height: 38px;" src="assets/img/destaques/destaque4.png"></div>
               <div class="mb-5 mx-4"><img style="height: 38px;" src="assets/img/destaques/destaque5.png"></div>
@@ -398,17 +440,44 @@
     </section>
     <!--=========== fim destaques ===========-->
 
+    <!--=========== empresas ===========-->
+    <section class="w-100 mb-5 section_empresas" style="background-color: transparent;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 d-block cont_img_produto">
+            <img class="w-100 h-100" style="object-fit: contain;" src="assets/img/destaques/img_produto.png">
+          </div>
+          <div class="col-12 col-md-8 col-lg-9 pt-4 px-5 d-flex align-items-center">
+            <div class="pl-3 pl-xl-5">
+              <h1 class="mb-5 _color_green">Aprovado por grandes empresas</h1>
+              <div class="w-100 d-flex flex-wrap">
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/google.png"></div>
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/btg.png"></div>
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/sodexo.png"></div>
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/grsa.png"></div>
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/uber.png"></div>
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/arn.png"></div>
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/facebook.png"></div>
+                <div class="w-50 w-lg-25 mb-5 cont_img_empresa"><img class="img_empresa" style="max-width: 230px;" src="assets/img/empresas/oliver.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== fim empresas ===========-->
+
     <!--=========== avaliacoes ===========-->
-    <section class="section_avaliacoes" style="overflow: hidden;">
+    <section class="section_avaliacoes pt-5" style="overflow: hidden; background-image: url('assets/img/bg_categorias.png'); background-repeat: no-repeat; background-size: 100% 100%;">
       <div class="container">
         <div class="row">
           <div class="col-12 d-block d-md-flex">
             <div class="mb-5 pb-5 mb-md-0 pb-md-0 mt-3">
-              <div class="pt-3 pl-3 mr-4" style="position: relative; background-image: url('assets/img/circles.png'); background-size: 72px 72px; background-repeat: no-repeat;">
-                <h1 class="bg-white pt-2 px-3 _color_green">Avaliações <br><span style="white-space: nowrap;">de clientes</span></h1>
+              <div class="pt-3 pl-3 mr-4" style="position: relative; background-image: url('assets/img/circles_2.png'); background-size: 72px 72px; background-repeat: no-repeat;">
+                <h1 class="pt-2 px-3 text-white">Avaliações <br><span style="white-space: nowrap;">de clientes</span></h1>
                 <div class="px-3" style="font-size: 16px; color: #757575;">
-                  <span style="white-space: nowrap;">Nós valorizamos o bom</span> <br>
-                  <span style="white-space: nowrap;">atendimento e a satisfação</span>
+                  <span style="white-space: nowrap;" class="text-white">Nós valorizamos o bom</span> <br>
+                  <span style="white-space: nowrap;" class="text-white">atendimento e a satisfação</span>
                 </div>
               </div>
             </div>
@@ -473,6 +542,31 @@
     </section>
     <!--=========== fim avaliacoes ===========-->
 
+    <!--=========== contato ===========-->
+    <section class="section_contato pt-5" style="overflow: hidden;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 d-block d-md-flex">
+            <div class="">
+              <div class="pt-3 pl-3 mr-4" style="position: relative; background-image: url('assets/img/circles_2.png'); background-size: 72px 72px; background-repeat: no-repeat;">
+                <h1 class="pt-2 px-3 _color_green">Entre <span class="d-md-block" style="white-space: nowrap;">em contato</span></h1>
+                <p class="ml-3">Preencha o formulário para entrarmos em contato</p>
+              </div>
+            </div>
+          </div>
+
+          <form method="POST" class="col-12 col-md-6 col-lg-8 mb-5">
+            <input type="text" required name="motivo" class="form-control mb-4" placeholder="Qual é o motivo do seu contato?">
+            <input type="text" required name="nome" class="form-control mb-4" placeholder="Qual é o seu nome?">
+            <input type="email" required name="email" class="form-control mb-4" placeholder="Em qual e-mail podemos entrar em contato com você?">
+            <input type="text" required name="telefone" class="form-control mb-4" placeholder="Qual é o seu telefone para contato?">
+            <button class="btn text-white w-100 mb-5" style="background-color: #45842E;">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--=========== fim contato ===========-->
+
     <!--=========== footer ===========-->
     <footer style="background: linear-gradient(134.99deg, #45842E 3.35%, #E0E454 99.07%);;">
       <div class="container pt-5 pb-5">
@@ -481,11 +575,11 @@
             <img style="width: 113px;" class="mb-3" src="assets/img/logo_2.svg">
             <div class="d-flex mb-3">
               <div class="mr-2"><img style="width: 24px; filter: invert(1);" src="assets/img/location.png"></div>
-              <div class="text-white" style="font-size: 14px;">Rua Fernandes Moraes de Alvim, 271 Vila Andrade - São Paulo / SP</div>
+              <div class="text-white" style="font-size: 14px;">Rua Acruás, 250 <br> Campo Belo - São Paulo / SP</div>
             </div>
             <div class="d-flex mb-3">
               <div class="mr-2"><img style="width: 24px; filter: invert(1);" src="assets/img/phone.png"></div>
-              <div class="text-white" style="font-size: 14px;">(11) 99999-9999</div>
+              <div class="text-white" style="font-size: 14px;">(11) 95285-2681</div>
             </div>
             <div class="d-flex mb-3">
               <div class="mr-2"><img style="width: 24px; filter: invert(1);" src="assets/img/mail.png"></div>
@@ -493,23 +587,28 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <h6 class="text-white mb-4">SITEMAP</h6>
-            <a href="#" class="d-block float-left w-100 text-white mb-2">Sobre a prima</a>
-            <a href="#" class="d-block float-left w-100 text-white mb-2">Lojas Parceiros</a>
-            <a href="#" class="d-block float-left w-100 text-white mb-2">Cadastro</a>
-            <a href="#" class="d-block float-left w-100 text-white mb-2">Login</a>
+            <h6 class="text-white mb-4">Made In Natural</h6>
+            <a href="#" class="d-block float-left w-100 text-white mb-2">Nossos Produtos</a>
+            <a href="#" class="d-block float-left w-100 text-white mb-2">Snacks para Empresas</a>
+            <a href="#" class="d-block float-left w-100 text-white mb-2">Compre no Atacado</a>
+            <a href="#" class="d-block float-left w-100 text-white mb-2">Crie uma cotação</a>
+            <a href="#" class="d-block float-left w-100 text-white mb-2">Fale Conosco</a>
           </div>
           <div class="col-12 col-lg-6 d-flex flex-wrap">
             <div class="w-50">
-              <h6 class="text-white mb-4">HELP</h6>
+              <h6 class="text-white mb-4">Siga-nos</h6>
+              <a href="#" class="d-block text-white mb-2">Instagram</a>
+              <a href="#" class="d-block text-white mb-2">Facebook</a>
+              <a href="#" class="d-block text-white mb-2">Twitter</a>
+            </div>
+            <div class="w-50">
+              <h6 class="text-white mb-4">Termos de Uso / Ajuda / Contato</h6>
+              <a href="#" class="d-block text-white mb-2">Termos de Uso</a>
               <a href="#" class="d-block text-white mb-2">Duvidas Frequentes</a>
               <a href="#" class="d-block text-white mb-2">Contato</a>
             </div>
-            <div class="w-50">
-              <h6 class="text-white mb-4">POLITICA DE PRIVACIDADE</h6>
-              <a href="#" class="d-block text-white mb-2">Termos de Uso</a>
-            </div>
             <div class="w-100 w-lg-75 mt-4">
+              <h6 class="text-white mb-4">Newslatter</h6>
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text bg-white" style="border-top-left-radius: 10px;border-bottom-left-radius: 10px;">
